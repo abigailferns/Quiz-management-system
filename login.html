@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  color: DarkOliveGreen;
+  font-family: "Verdana", sans-serif;
+}
+label {
+  color: DarkOliveGreen;
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight:bold;
+}
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f2f2f2;
+}
+form {
+      text-align: center;
+      margin-top: 20px; /* Adjust the top margin as needed */
+}
+</style>
+</head>
+<body>
+<br>
+<form action="login_php.php" method = "post">
+  <h2>Login Page</h2><br>
+  <label for="user_id">Username:</label><br>
+  <input type="text" id="user_id" name="user_id" placeholder="user_id"><br><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+  <input type="submit" value="Submit" formaction="quiz.html"><br><br>
+<a href = "signin.html">Need an account?</a>
+</form>
+</body>
+</html>
