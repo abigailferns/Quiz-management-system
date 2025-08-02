@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale 1.0">
+        <title>
+           Quizillers
+        </title>
+        
+    </head>
+    <body>
+        <h1>
+            Sign Up
+        </h1>
+        <form action = "signin_php.php" method = "post">
+            <input type="text" name="user_id" placeholder=" User ID" required>
+            <br>
+            <input type="email" name="email" placeholder=" Email" required>
+            <br>
+            <input type="password" name="password" placeholder=" Password" required>
+            <br>
+            <input type = "Submit" value = "Sign up" formaction="quiz.html"><br>
+            <a href = "login.html">Already have an account?</a>
+        </form>
+    </body>
+</html>
