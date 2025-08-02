@@ -3,23 +3,29 @@
     <head>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale 1.0">
-        <title>
-           Quizillers
-        </title>
-        
+        <title> FactGeo - Sign In </title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="signlog.css">
     </head>
     <body>
-        <h1>
-            Sign Up
-        </h1>
+        <div class="banner">
+            <img src="newlogo.png" alt="FactGeo Logo">
+        </div>
+        
         <form action = "signin_php.php" method = "post">
-            <input type="text" name="user_id" placeholder=" User ID" required>
+            <h1>
+                Sign Up
+            </h1>
+            <label for="user_id">Username</label><br>
+            <input type="text" name="user_id" placeholder="Enter Username" required>
             <br>
-            <input type="email" name="email" placeholder=" Email" required>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" placeholder="Enter Email" required>
             <br>
-            <input type="password" name="password" placeholder=" Password" required>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" placeholder="Enter Password" required>
             <br>
-            <input type = "Submit" value = "Sign up" formaction="quiz.html"><br>
+            <input type = "Submit" name= "Sign Up" value = "Sign Up"><br>
             <a href = "login.html">Already have an account?</a>
         </form>
     </body>
